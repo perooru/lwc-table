@@ -1,0 +1,54 @@
+table {
+   border: 0;
+   border-collapse: collapse;
+   border-spacing: 4px;
+   padding: 6px;
+}
+
+table th {
+   border: 1px solid #b3adad;
+   padding: 8px;
+   background: #f0f0f0;
+   color: #fff;
+}
+
+table td {
+   border: 1px solid #a4a4a4;
+   text-align: center;
+   padding: 8px;
+   background: #ffffff;
+   color: #313030;
+}
+
+table.count-table .table-title {
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(27, 150, 255) !important;
+    border-color: rgb(27, 150, 255) !important;
+}
+
+table.amount-table .table-title {
+    text-align: center;
+    font-size: 16px;
+    background-color:rgb(1, 118, 211) !important;
+    border-color: rgb(1, 118, 211) !important;
+}
+
+.fixed-width {
+    width:36%;
+    text-align:center;
+}
+.fixed-width.no-border {
+    border-width: 0 !important;
+    background-color: transparent !important;
+}
+
+.gray-cell-valye {
+    background-color: rgb(243, 243, 243) !important;
+    font-weight: bold;
+}
+
+.gray-row-valye {
+    background-color: rgb(243, 243, 243) !important;
+    font-weight: bold;
+}
